@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+}
+
+.autocomplete-column {
+  max-width: 300px; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option-form-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.9rem; /* Reduced font size */
+}
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.8rem; /* Reduced font size */
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  font-size: 0.85rem; /* Reduced font size */
+}
+
+ul {
+  padding-left: 20px;
+  font-size: 0.95rem; /* Slightly larger for list items */
+}
+
